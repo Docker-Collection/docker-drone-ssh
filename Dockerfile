@@ -1,4 +1,3 @@
-
 # Dockerfile cross compilation helper
 FROM tonistiigi/xx@sha256:9dde7edeb9e4a957ce78be9f8c0fbabe0129bf5126933cd3574888f443731cda AS xx
 
