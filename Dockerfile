@@ -27,7 +27,7 @@ RUN apk --update --no-cache add git && \
     xx-verify --static /bin/drone-ssh
 
 # Stage - Main Image
-FROM plugins/base:latest
+FROM plugins/base:latest@sha256:a7c0bb7766e462bb9bed21596da9ee6b2f74f035a4095d4076f2e4cf85876a64
 
 # Copy Drone SSH binary to image
 COPY --from=builder /bin/drone-ssh /bin/drone-ssh
